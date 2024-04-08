@@ -1,11 +1,10 @@
 # CurrencyConversion
-## Test Cases
-### Test Cases for Currency Conversion API
+## Test Cases for Currency Conversion API
 
-### Test Case 1: Retrieving exchange rate for a specific source and target currency on a given date.
-**Precondition:** Set up API with exchange rate data for various currency pairs, effective start dates, and exchange rates.
-**Input parameters:** A valid source currency, a valid target currency and a valid date are provided. USD -> EUR, 2024-04-01.
-**Expected output:** The exchange rate from source currency to target currency on date is expected.
+### Test Case 1: Retrieving exchange rate for a specific source and target currency on a given date.<br>
+**Precondition:** Set up API with exchange rate data for various currency pairs, effective start dates, and exchange rates.<br>
+**Input parameters:** A valid source currency, a valid target currency and a valid date are provided. USD -> EUR, 2024-04-01.<br>
+**Expected output:** The exchange rate from source currency to target currency on date is expected.<br>
 **Steps:** 
 a. Send GET request to the API with input parameters. 
 b. Assert that the response contains expected output or appropriate error message.
